@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 🔥 SEO TAGS -->
+<title>Yazhini Super Market - Ponnamaravathy</title>
+<meta name="description" content="Yazhini Super Market in Ponnamaravathy. Fresh vegetables, fruits, groceries, milk, snacks available. Call 9788640876.">
+<meta name="keywords" content="Yazhini Super Market, Ponnamaravathy supermarket, grocery shop Pudukkottai, vegetables, fruits shop">
+<meta name="author" content="Yazhini Super Market">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#0a8754;
+    color:white;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:55px;
+    font-weight:700;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+header h1:hover{
+    color:#ffd166;
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+nav a{
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero{
+    height:80vh;
+    background:url('https://images.unsplash.com/photo-1604719312566-8912e9c8a213') no-repeat center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h2{
+    font-size:48px;
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    border-radius:10px;
+}
+
+.section{
+    padding:50px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:10px;
+}
+
+.card p{
+    padding:0 10px 10px;
+}
+
+/* WhatsApp Button */
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    font-size:22px;
+    text-decoration:none;
+}
+
+footer{
+    background:#0a8754;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Yazhini Super Market</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Fresh Groceries Delivered to Your Doorstep 🛒</h2>
+</div>
+
+<section class="section" id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?vegetables">
+            <h3>Fresh Vegetables</h3>
+            <p>Carrot, Beans, Tomato, Onion.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?fruits">
+            <h3>Fruits</h3>
+            <p>Apple, Banana, Orange, Grapes.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?chocolate">
+            <h3>Chocolates</h3>
+            <p>Dairy Milk, KitKat, Snickers.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?milk">
+            <h3>Milk</h3>
+            <p>Fresh Cow Milk & Packet Milk.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?yogurt">
+            <h3>Curd</h3>
+            <p>Healthy Homemade Curd.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?snacks">
+            <h3>Snacks</h3>
+            <p>Chips, Biscuits, Mixture.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?drinks">
+            <h3>Beverages</h3>
+            <p>Juices, Cool Drinks.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/300x200/?grocery">
+            <h3>Grocery Items</h3>
+            <p>Rice, Dal, Oil, Sugar.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Yazhini Super Market, Ponnamaravathy, Pudukkottai (Dt), Tamil Nadu</p>
+
+    <p>📞 
+        <a href="tel:9788640876" style="color:#0a8754; font-weight:bold; text-decoration:none;">
+            9788640876
+        </a>
+    </p>
+
+    <p>
+        <a href="https://wa.me/919788640876" style="color:#25D366; font-weight:bold; text-decoration:none;">
+            💬 Chat on WhatsApp
+        </a>
+    </p>
+
+    <!-- 🗺️ GOOGLE MAP -->
+    <iframe 
+    src="https://www.google.com/maps?q=Ponnamaravathy&output=embed"
+    width="100%" height="250" style="border:0; margin-top:20px;">
+    </iframe>
+
+</section>
+
+<a href="https://wa.me/919788640876" class="whatsapp">💬</a>
+
+<footer>
+    <p>© 2026 Yazhini Super Market | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
